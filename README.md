@@ -7,7 +7,7 @@
 ### Uso de encapsulamento e Page Object
 - A "POO" de casos de teste;
 - Sempre buscar o encapsulamento do maior número de funções possíveis para o Page Object;
-- Page Object deve seguir a rista a hierarquia de páginas;
+- Page Object deve seguir a risca a hierarquia de páginas;
 - Sempre buscar utilizar ganchos.
 
 ### XPath
