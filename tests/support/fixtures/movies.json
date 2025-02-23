@@ -1,0 +1,83 @@
+{
+    "create": {
+      "title": "Guerra Mundial Z",
+      "overview": "Em meio a uma pandemia global de zumbis, um ex-investigador da ONU embarca em uma jornada desesperada pelo mundo para encontrar uma solução e salvar a humanidade.",
+      "company": "Paramount Pictures",
+      "release_year": 2013,
+      "features": false,
+      "cover": "covers/guerra_mundial_z.jpg"
+    },
+    "zombieland": {
+      "title": "Zombieland",
+      "overview": "Um grupo improvável de sobreviventes enfrenta um apocalipse zumbi com humor e muita ação, seguindo um conjunto peculiar de regras para sobreviver.",
+      "company": "Columbia Pictures",
+      "release_year": 2009,
+      "features": false,
+      "cover": "covers/zombieland.jpg"
+    },
+    "a_noite_dos_mortos_vivos": {
+      "title": "A Noite dos Mortos-Vivos",
+      "overview": "Um grupo de pessoas se refugia em uma casa isolada enquanto tenta sobreviver a uma horda de mortos-vivos que ameaça sua segurança.",
+      "company": "Image Ten",
+      "release_year": 1968,
+      "features": false,
+      "cover": "covers/noite_dos_mortos_vivos.jpg"
+    },
+    "28_days_later": {
+      "title": "28 Days Later",
+      "overview": "Após um surto devastador que transforma pessoas em criaturas violentas, um pequeno grupo luta para sobreviver em um mundo em ruínas.",
+      "company": "Fox Searchlight Pictures",
+      "release_year": 2002,
+      "features": false,
+      "cover": "covers/28_days_later.jpg"
+    },
+    "shaun_of_the_dead": {
+      "title": "Shaun of the Dead",
+      "overview": "Uma comédia britânica onde um homem comum tenta salvar sua vida e seus amigos durante um apocalipse zumbi repleto de humor e ação.",
+      "company": "StudioCanal",
+      "release_year": 2004,
+      "features": false,
+      "cover": "covers/shaun_of_the_dead.jpg"
+    },
+    "resident_evil": {
+      "title": "Resident Evil",
+      "overview": "Quando um vírus mortal transforma pessoas em zumbis, um grupo de elite enfrenta criaturas sedentas de sangue e conspirações corporativas.",
+      "company": "Screen Gems",
+      "release_year": 2002,
+      "features": false,
+      "cover": "covers/resident_evil.jpg"
+    },
+    "train_to_busan": {
+      "title": "Train to Busan",
+      "overview": "Durante uma viagem de trem, passageiros se unem para enfrentar um surto zumbi que transforma o trajeto em um pesadelo de sobrevivência.",
+      "company": "Next Entertainment World",
+      "release_year": 2016,
+      "features": false,
+      "cover": "covers/train_to_busan.jpg"
+    },
+    "rec": {
+      "title": "REC",
+      "overview": "Uma repórter e seu cinegrafista ficam presos em um prédio em quarentena, onde um vírus mortal transforma moradores em criaturas aterrorizantes.",
+      "company": "Filmax",
+      "release_year": 2007,
+      "features": false,
+      "cover": "covers/rec.jpg"
+    },
+    "dawn_of_the_dead": {
+      "title": "Dawn of the Dead",
+      "overview": "Num shopping abandonado, um grupo de sobreviventes se refugia enquanto tenta escapar de uma infestação zumbi que ameaça a humanidade.",
+      "company": "New Line Cinema",
+      "release_year": 2004,
+      "features": false,
+      "cover": "covers/dawn_of_the_dead.jpg"
+    },
+    "land_of_the_dead": {
+      "title": "Land of the Dead",
+      "overview": "Em um futuro distópico, os sobreviventes humanos enfrentam zumbis inteligentes em uma luta pelo controle e pela sobrevivência.",
+      "company": "Picturehouse",
+      "release_year": 2005,
+      "features": false,
+      "cover": "covers/land_of_the_dead.jpg"
+    }
+  }
+  

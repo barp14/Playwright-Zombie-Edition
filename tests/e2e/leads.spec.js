@@ -1,5 +1,5 @@
 // @ts-check
-import { test } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 import { LandingPage } from '../pages/LandingPage'
 import { Toast } from '../pages/Components'
 import { faker } from '@faker-js/faker';
@@ -22,10 +22,21 @@ test('cadastro lead', async ({ page }) => {
   await toast.haveText('Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato!')
 })
 
-test('email existente', async ({ page }) => {
+test('email existente', async ({ page, request }) => {
+  const leadName = faker.person.fullName()
+  const leadEmail = faker.internet.email()
+
+  const newLead = await request.post('http://localhost:3333/leads', { // consumindo API
+    data: {
+      name: leadName,
+      email: leadEmail
+    }
+  })
+  expect(newLead.ok()).toBeTruthy()
+
   await landingPage.visit()
   await landingPage.openLeadModal()
-  await landingPage.submitLeadForm('João Barp', 'joaobarpy@gmail.com')
+  await landingPage.submitLeadForm(leadName, leadEmail)
   await toast.haveText('O endereço de e-mail fornecido já está registrado em nossa fila de espera.')
 })
 
