@@ -1,7 +1,7 @@
-import { test } from '@playwright/test'
-import { LoginPage } from '../pages/LoginPage'
-import { MoviesPage } from '../pages/MoviesPage'
-import { Toast } from '../pages/Components'
+const { test } = require ('@playwright/test')
+const { LoginPage } = require ('../pages/LoginPage')
+const { MoviesPage } = require ('../pages/MoviesPage')
+const { Toast } = require ('../pages/Components')
 
 let loginPage
 let toast

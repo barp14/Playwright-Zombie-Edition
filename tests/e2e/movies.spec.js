@@ -1,4 +1,4 @@
-import { test } from '@playwright/test'
+const { test } = require ('@playwright/test')
 
 const data = require('../support/fixtures/movies.json')
 const { executeSQL } = require('../support/database')

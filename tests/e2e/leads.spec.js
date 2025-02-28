@@ -1,8 +1,7 @@
-// @ts-check
-import { expect, test } from '@playwright/test'
-import { LandingPage } from '../pages/LandingPage'
-import { Toast } from '../pages/Components'
-import { faker } from '@faker-js/faker';
+const { expect, test } = require ('@playwright/test')
+const { LandingPage } = require ('../pages/LandingPage')
+const { Toast } = require ('../pages/Components')
+const { faker } = require ('@faker-js/faker')
 
 let landingPage
 let toast
