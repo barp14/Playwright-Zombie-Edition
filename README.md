@@ -1,4 +1,33 @@
-# Aprendizados interessantes
+## 🤘 Sobre
+
+Repositório do projeto de testes automatizados do sistema Zombie Plus, construído no curso Playwright Zombie Edition! 
+
+## 💻 Tecnologias
+- Node.js
+- Playwright
+- Javascript
+- Faker
+- PostgreSQL
+- Docker
+
+## 🤖 Como executar
+
+1. Clonar o repositório, instalar as dependências
+```
+npm install
+```
+
+2. Executar testes em Headless
+```
+npx playwright test 
+```
+
+3. Executar ver o relatório dos testes
+```
+npx playwright show-report
+```
+
+## 💭 Aprendizados interessantes
 
 ### Conteinerização das imagens do banco de dados utilizando Docker
 - Utilizando Docker para gerenciar a instância do banco de dados dentro do meu ambiente pessoal;
